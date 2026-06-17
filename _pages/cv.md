@@ -123,11 +123,6 @@ Talks and Presentations
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-Additional Presentations
-======
-
-**Research Poster:** Ahmed, H., Bush, N. J., Ferguson, E., Zale, E., & Boissoneault, J. (2024). Expectancy of alcohol analgesia moderates the association between psychosocial risk factors and frequency of pain self-medication using alcohol. Research Society on Alcohol 47th Annual Meeting; MINDS Post-Baccalaureate Poster Symposium.
-
 Service and Leadership
 ======
 
