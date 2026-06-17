@@ -1,56 +1,82 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Huda Ahmed"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Hi! I'm a data scientist and behavioral health researcher with training in psychology, human subjects research, machine learning, and reproducible analytics. My work focuses on using data-driven methods to better understand mental health risk, health behavior, treatment access, and patient-centered outcomes.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I have experience working across the full research and data science workflow: developing study protocols, building REDCap and Qualtrics data collection systems, managing longitudinal and EMA-based research operations, cleaning and documenting complex datasets, building predictive models, and communicating findings to research teams and stakeholders.
 
-A data-driven personal website
+My technical work is grounded in applied behavioral health questions, including suicide and self-injury research, alcohol and pain research, wearable sensor methods, public health accessibility, and mental health equity.
+
+[View Data Science Projects](/portfolio/){: .btn .btn--primary}
+
+[View Resume](/cv/){: .btn .btn--info}
+
+Professional Focus
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My work sits at the intersection of behavioral health research and applied data science. I am especially interested in projects that use statistical modeling, machine learning, and reproducible workflows to generate insights from complex clinical, behavioral, and public health data.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Areas of focus include:
 
-Getting started
+* Predictive modeling for behavioral health outcomes
+* Suicide and nonsuicidal self-injury research
+* Ecological momentary assessment and longitudinal study design
+* Public health and treatment access analytics
+* Wearable sensor and remote monitoring methods
+* Reproducible research workflows using R, Python, SQL, and Quarto
+* Human subjects research, IRB protocols, REDCap, and Qualtrics workflows
+
+Featured Work
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**Machine Learning Prediction of Recent Nonsuicidal Self-Injury**  
+Developed a supervised machine learning workflow to identify predictors of recent nonsuicidal self-injury using clinical, psychosocial, and behavioral health data. 
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Machine Learning Prediction of Airline Passenger Satisfaction**  
+Built a reproducible classification workflow using passenger survey data to predict airline customer satisfaction. This project demonstrates data cleaning, feature engineering, model comparison, ROC/AUC-based evaluation, and stakeholder-facing communication.
 
-**Markdown generator**
+**Language Access and Substance Use Treatment Admissions**  
+Analyzed whether language-access services predicted substance use treatment admissions across Midwestern facilities using SAMHSA facility-level data. This project demonstrates public health data cleaning, regression modeling, Type III ANOVA, and applied interpretation for treatment access and service planning.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**SES, Subjective Social Status, and Mental Health Outcomes**  
+Reproduced mediation models examining whether subjective social status explains associations between socioeconomic status and depressive symptoms, suicidal ideation, and suicide attempts. This project demonstrates reproducible research, mediation analysis, and careful interpretation of mental health findings.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+[Explore Projects](/portfolio/){: .btn .btn--primary}
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+Research and Publications
+======
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+I have contributed to research on alcohol use, pain, wearable sensor methods, suicide and self-injury, ecological momentary assessment, and behavioral health risk. My publication and presentation record includes peer-reviewed work on smartwatch-based alcohol consumption detection and presentations on machine learning approaches to behavioral health prediction.
+
+[View Publications](/publications/){: .btn .btn--info}
+
+[View Talks and Presentations](/talks/){: .btn .btn--info}
+
+Technical Skills
+======
+
+**Programming and Reproducible Workflows:** R, tidyverse, tidymodels, ggplot2, Python, SQL, Quarto, R Markdown, Jupyter Notebooks, GitHub  
+
+**Machine Learning and Statistics:** classification, regression, random forest, K-nearest neighbors, regularized regression, mediation/moderation, linear mixed-effects models, PCA, ROC/AUC, feature importance, cross-validation  
+
+**Research Data Systems:** REDCap, Qualtrics, EMA workflows, longitudinal survey design, data dictionaries, codebooks, Excel tracking systems, ARROW, Ethos, OnCore, Box  
+
+**Human Subjects and Clinical Research:** IRB protocol development, informed consent, participant screening, clinical assessments, safety planning, PHI handling, participant tracking, study documentation  
+
+Background
+======
+
+I earned my M.S. in Data Science in Human Behavior from the University of Wisconsin–Madison and my B.S. in Psychology from the University of Minnesota–Twin Cities. My training combines quantitative methods, behavioral science, experimental design, machine learning, and human subjects research.
+
+I currently work with the Affect, Suicide, Self-Injury, and Social Triggers Lab at UW–Madison, where I support suicide and self-injury research involving EMA methods, participant tracking, REDCap and Qualtrics workflows, IRB/protocol development, and clinical research operations. Previously, I worked as a Research Professional in the Minnesota Alcohol and Pain Lab at the University of Minnesota Medical School, supporting NIH-funded alcohol, pain, wearable sensor, and neuroimaging studies.
+
+Contact
+======
+
+You can learn more about my work through my [GitHub](https://github.com/hudxhl), [LinkedIn](https://www.linkedin.com/in/hudaahmedd/), or [resume](/cv/).
