@@ -21,7 +21,7 @@ repository               : "hudxhl/hudxhl.github.io"
 # If a field is blank the icon and link will not appear.
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.jpg"
   name             : "Huda Ahmed"
   pronouns         : "she/her"
   bio              : "Data scientist and behavioral health researcher applying machine learning, statistical modeling, and reproducible analytics to clinical, public health, and human behavior data."
