@@ -7,6 +7,7 @@ venue: "Midwestern Psychological Association (MPA)"
 date: 2026-04-16
 location: "Chicago, IL, USA"
 slidesurl: "https://docs.google.com/presentation/d/1nTJJEBNFNxasktdQu1XZmt7A9r-3Y9NQ/edit?usp=sharing&ouid=100716535404014935379&rtpof=true&sd=true"
+excerpt: "Master's capstone presentation applying machine learning methods to identify predictors of recent nonsuicidal self-injury using behavioral health data."
 ---
 
 ## Overview
